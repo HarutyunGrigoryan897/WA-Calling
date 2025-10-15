@@ -437,23 +437,6 @@ a=sendrecv
 - **IP Whitelisting** - Only accept from known sources
 - **Rate Limiting** - Prevent DoS attacks
 
-### SIP Advantages for This System
-
-✅ **Mature Standard** - 20+ years of development and deployment
-✅ **PBX Integration** - Works with existing enterprise systems
-✅ **Hardware Support** - Compatible with desk phones, headsets
-✅ **Carrier Interoperability** - Can connect to PSTN via SIP trunks
-✅ **Feature Rich** - Call transfer, hold, conference built-in
-✅ **Debugging Tools** - Wireshark, sngrep, SIPp for testing
-
-### SIP Challenges
-
-❌ **NAT Traversal** - More complex than WebRTC's ICE
-❌ **Firewall Configuration** - Multiple ports required (signaling + RTP range)
-❌ **Complexity** - Many optional extensions and vendor variations
-❌ **Text-Based Protocol** - Higher overhead than binary protocols
-❌ **Separate Media/Signaling** - RTP paths need separate management
-
 ## WebRTC vs SIP Comparison
 
 | Aspect | WebRTC | SIP |
